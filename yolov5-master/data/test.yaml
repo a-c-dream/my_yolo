@@ -1,0 +1,18 @@
+path: E:/recycling bottles/py/data_set/
+train:
+  - DatasetId_common/images/train/
+  - DatasetId_cans/images/train/
+  - DatasetId_glass/images/train/
+  - DatasetId_plastic_bottle/images/train/
+
+val:
+  - DatasetId_common/images/val/
+  - DatasetId_cans/images/val/
+  - DatasetId_glass/images/val/
+  - DatasetId_plastic_bottle/images/val/
+
+test:  # test images (optional)
+
+# Classes
+nc: 3  # number of classes
+names: [ 'cans', 'glass_bottle', 'plastic_bottle' ]  # class names
