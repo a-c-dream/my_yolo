@@ -1,0 +1,56 @@
+path: /kaggle/input/recycle_app
+train:
+  - Vegetable_stem_vegetable_leaves/images/train/
+  - portable_battery/images/train/
+  - Wire_plug/images/train/
+  - pot/images/train/
+  - used_clothes/images/train/
+  - Express_paper_bag/images/train/
+  - fruit_peel/images/train/
+  - fishbone/images/train/
+  - beike/images/train/
+  - dianchi/images/train/
+  - dengpao/images/train/
+  - wenduji/images/train/
+  - yaowu/images/train/
+  - huazhuangpinping/images/train/
+  - rongqi/images/train/
+  - weishengzhi/images/train/
+  - yandi/images/train/
+  - canjv/images/train/
+  - DatasetId_common/images/train/
+  - DatasetId_cans/images/train/
+  - DatasetId_glass/images/train/
+  - DatasetId_plastic_bottle/images/train/
+
+
+val:
+  - Vegetable_stem_vegetable_leaves/images/val/
+  - portable_battery/images/val/
+  - Wire_plug/images/val/
+  - pot/images/val/
+  - used_clothes/images/val/
+  - Express_paper_bag/images/val/
+  - fruit_peel/images/val/
+  - fishbone/images/val/
+  - beike/images/val/
+  - dianchi/images/val/
+  - dengpao/images/val/
+  - wenduji/images/val/
+  - yaowu/images/val/
+  - huazhuangpinping/images/val/
+  - rongqi/images/val/
+  - weishengzhi/images/val/
+  - yandi/images/val/
+  - canjv/images/val/
+  - DatasetId_common/images/val/
+  - DatasetId_cans/images/val/
+  - DatasetId_glass/images/val/
+  - DatasetId_plastic_bottle/images/val/
+
+
+test:  # test images (optional)
+
+# Classes
+nc: 21  # number of classes
+names: [ 'Vegetable_stem_vegetable_leaves', 'portable_battery', 'Wire_plug', 'pot', 'used_clothes', 'Express_paper_bag', 'fruit_peel', 'fishbone','beike', 'dianchi', 'dengpao', 'wenduji', 'yaowu', 'huazhuangpinping', 'rongqi', 'weishengzhi','yandi','canjv','cans', 'glass_bottle', 'plastic_bottle' ]  # class names
