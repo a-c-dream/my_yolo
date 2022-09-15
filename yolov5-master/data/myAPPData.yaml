@@ -1,4 +1,4 @@
-path: /kaggle/input/recycle_app
+path: /kaggle/input/recycle_app/data_set
 train:
   - Vegetable_stem_vegetable_leaves/images/train/
   - portable_battery/images/train/
